@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sciences avec Dr. Abidine</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; color: #333; }
+    header, footer { background-color: #004d99; color: white; text-align: center; padding: 20px; }
+    nav { background-color: #007acc; display: flex; justify-content: center; gap: 15px; padding: 10px; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    .card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    table, th, td { border: 1px solid #ccc; }
+    th, td { padding: 10px; text-align: left; }
+    th { background-color: #e0e0e0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sciences avec Dr. Abidine</h1>
+    <p>Cours et exercices de physique & chimie pour collège et lycée</p>
+  </header>
+
+  <nav>
+    <a href="#physique">Physique</a>
+    <a href="#chimie">Chimie</a>
+    <a href="#videos">Vidéos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="physique">
+    <div class="card">
+      <h2>Physique - Exercices et cours</h2>
+      <table>
+        <tr><th>Niveau</th><th>Ressource</th><th>Type</th><th>Lien</th></tr>
+        <tr><td>3e</td><td>Chute libre</td><td>Cours PDF</td><td><a href="documents/chute-libre.pdf">Télécharger</a></td></tr>
+        <tr><td>3e</td><td>Exercice : vitesse et accélération</td><td>Exercice PDF</td><td><a href="documents/exo-vitesse.pdf">Télécharger</a></td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="chimie">
+    <div class="card">
+      <h2>Chimie - Exercices et cours</h2>
+      <table>
+        <tr><th>Niveau</th><th>Ressource</th><th>Type</th><th>Lien</th></tr>
+        <tr><td>4e</td><td>Réactions acide-base</td><td>Cours PDF</td><td><a href="documents/reactions-acide-base.pdf">Télécharger</a></td></tr>
+        <tr><td>4e</td><td>Exercice : ions et neutralisation</td><td>Exercice PDF</td><td><a href="documents/exo-ions.pdf">Télécharger</a></td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="videos">
+    <div class="card">
+      <h2>Vidéos pédagogiques</h2>
+      <p>Explication de la chute libre :</p>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/iH2ZgBz_Nv8" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email : <strong>brahim.abidine@fst.utm.tn</strong></p>
+      <p>Téléphone : <strong>46260709</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Sciences avec Dr. Abidine. Tous droits réservés.
+  </footer>
+</body>
+</html>
